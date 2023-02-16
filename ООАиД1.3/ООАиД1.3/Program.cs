@@ -7,6 +7,7 @@
             int x = 10;
             int y = 108;
             int mult = x * y;
+            Console.WriteLine("multiplication = " + mult);
         }
     }
 }
