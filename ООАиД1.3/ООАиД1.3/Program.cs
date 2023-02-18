@@ -8,6 +8,7 @@
             int y = 108;
             int mult = x * y;
             Console.WriteLine("multiplication = " + mult);
+            Console.WriteLine("Дим, как дела?");
         }
     }
 }
