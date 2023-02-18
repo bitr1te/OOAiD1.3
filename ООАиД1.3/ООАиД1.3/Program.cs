@@ -11,6 +11,7 @@
             Console.WriteLine("Сань, как дела?");
             Console.WriteLine("Сань, как дела, заебал");
             Console.WriteLine("Че молчишь");
+            double Дима;
         }
     }
 }
