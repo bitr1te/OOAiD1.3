@@ -10,6 +10,7 @@
             Console.WriteLine("multiplication = " + mult);
             Console.WriteLine("Дим, как дела?");
             Console.WriteLine("Дим, как дела, заебал");
+            Console.WriteLine("Че молчишь");
         }
     }
 }
