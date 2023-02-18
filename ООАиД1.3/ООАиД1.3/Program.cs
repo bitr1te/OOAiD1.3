@@ -14,27 +14,28 @@ namespace ООАиД1._3
             Console.WriteLine("Че молчишь");
             double Дима;
             Дима = 40; //кг
-            ОпределениеТипаДимы();
-        }
-
-        static void ОпределениеТипаДимы()
-        {
-            int i = 0;
-            string[] DimaArray = new string { "Нуб", "Про", "Перекач", "Нафидил", "В муте" };
-            bool otvet = false;
-            while (choslo > 4 || choslo < 0)
+            while(true)
             {
-                Console.WriteLine("Введите число: ");
-                int choslo = Convert.ToInt32(Console.ReadLine());
-            }
-            for (i = 0; i < DimaArray.Length; i++)
-            {
-                if (choslo == DimaArray[i])
+                try
                 {
-                    Console.WriteLine("Дима = " + DimaArray[i]);
+                    Console.Write("Введите число: ");
+                    int i = Convert.ToInt32(Console.ReadLine());
+                    i %= 5;
+
+                    ОпределениеТипаДимы(i);
+                }
+                catch
+                {
                     break;
                 }
             }
+        }
+
+        static void ОпределениеТипаДимы(int i)
+        {
+            string[] DimaArray = new string[] { "Нуб", "Про", "Перекач", "Нафидил", "В муте" };
+
+            Console.WriteLine(DimaArray[i]);
         }
     }
 }
