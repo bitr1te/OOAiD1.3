@@ -12,6 +12,7 @@
             Console.WriteLine("Сань, как дела, заебал");
             Console.WriteLine("Че молчишь");
             double Дима;
+            Дима = 40; //кг
         }
     }
 }
