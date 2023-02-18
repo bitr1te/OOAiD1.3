@@ -9,6 +9,7 @@
             int mult = x * y;
             Console.WriteLine("multiplication = " + mult);
             Console.WriteLine("Дим, как дела?");
+            Console.WriteLine("Дим, как дела, заебал");
         }
     }
 }
