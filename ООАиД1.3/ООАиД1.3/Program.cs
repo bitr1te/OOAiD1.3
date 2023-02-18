@@ -13,5 +13,10 @@
             Console.WriteLine("Че молчишь");
             double Дима;
         }
+
+        static void Определениетипадимы()
+        {
+
+        }
     }
 }
