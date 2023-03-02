@@ -8,6 +8,9 @@ namespace ООАиД1._3
             int x = 10;
             int y = 108;
             int mult = x * y;
+
+            string Misha = "Чувствует сильно";
+
             Console.WriteLine("multiplication = " + mult);
             Console.WriteLine("Сань, как дела?");
             Console.WriteLine("Сань, как дела, заебал");
